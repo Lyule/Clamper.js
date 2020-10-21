@@ -10,12 +10,16 @@ npm i clamper.js --save
 ```
 
 ```
+// js
 import Clamper from 'clamper.js'
 
 new Clamper({
   el: '.app',
-  maxLines: 3,
+  maxLines: 2,
   ellipsis: '...',
-  text: 'asdasdsadasdasdasasdasdsadasdasdasasasdasasdasdsadasdasdasasasdasasdasdsadasdasdasasasdasasdasdsadasdasdasasdasdsadasdasdasasdasdsadasdasdasasdasdsadasdasdasasdasdsadasdasdas'
+  text: 'testtesttesttesttesttesttesttesttesttesttesttest'
 })
+
+// html
+<div class="app"></div>
 ```

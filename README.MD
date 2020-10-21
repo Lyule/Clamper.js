@@ -22,4 +22,7 @@ new Clamper({
 
 // html
 <div class="app"></div>
+// or
+<div class="app" data-text="testtesttesttesttesttesttesttesttesttesttesttest"></div>
 ```
+

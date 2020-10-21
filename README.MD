@@ -17,6 +17,7 @@ new Clamper({
   el: '.app',
   maxLines: 2,
   ellipsis: '...',
+  toggleBtnTexts: ['expand', 'up'],
   text: 'testtesttesttesttesttesttesttesttesttesttesttest'
 })
 

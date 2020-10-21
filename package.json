@@ -2,16 +2,25 @@
   "name": "clamper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-buble": "^0.21.3",
     "@rollup/plugin-node-resolve": "^9.0.0",
     "rollup-plugin-terser": "^7.0.2"
+  },
+  "main": "dist/index.js",
+  "module": "lib/index.js",
+  "bugs": {
+    "url": "https://github.com/Lyule/Clamper.js/issues"
+  },
+  "homepage": "https://github.com/Lyule/Clamper.js",
+  "author": "Lyule",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justineo/vue-clamp.git"
   }
 }

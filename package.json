@@ -1,6 +1,6 @@
 {
-  "name": "clamper",
-  "version": "1.0.0",
+  "name": "clamper.js",
+  "version": "0.1.2",
   "description": "",
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
@@ -21,6 +21,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Justineo/vue-clamp.git"
+    "url": "git+https://github.com/Lyule/Clamper.js"
   }
 }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clampler Demo</title>
+  <script src="../lib/index.js"></script>
+  <script>
+    window.onload = function() {
+      new Clamper({
+        el: '.app',
+        maxLines: 3,
+        ellipsis: '~',
+        text: 'asdasdsadasdasdasasdasdsadasdasdasasasdasasdasdsadasdasdasasasdasasdasdsadasdasdasasasdasasdasdsadasdasdasasdasdsadasdasdasasdasdsadasdasdasasdasdsadasdasdasasdasdsadasdasdas'
+      })
+    }
+  </script>
+</head>
+<body>
+<div class="app"></div>
+</body>
+</html>
